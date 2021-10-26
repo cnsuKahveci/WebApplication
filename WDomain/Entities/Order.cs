@@ -1,3 +1,4 @@
+
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -27,5 +28,6 @@ namespace WDomain.Entities
         public Product Product { get; set; }
         public int Piece { get; set; }
         public double Total { get; set; }
-    }
+
+      }
 }

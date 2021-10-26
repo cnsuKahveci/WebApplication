@@ -1,3 +1,4 @@
+
 ﻿using System;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -20,5 +21,6 @@ namespace WDomain.Entities
      * Order mutlaka bir product'ta bagli olmalı anlamına geliyor
         public Order Order { get; set; }
     */
+
     }
 }

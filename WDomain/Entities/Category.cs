@@ -1,3 +1,4 @@
+
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -18,6 +19,7 @@ namespace WDomain.Entities
         public Category ParentCategory { get; set; }
         //alt katogoriler ile iliski kuruyor
         public ICollection<Category> SubCategories { get; set; }
-    */
+    */ 
+
     }
 }
