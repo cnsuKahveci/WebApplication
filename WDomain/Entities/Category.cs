@@ -10,7 +10,6 @@ namespace WDomain.Entities
     {
         public Guid Id { get; set; }
         public string Name { get; set; }
-        //Collection 1-n, n-n ilişki icin kullanılıyor
         public virtual ICollection<Product> Products { get; set; }
     /*
         //parentId null gelirse hata dönmesin, null ise dokunma anlamında ? kullanılıyor.

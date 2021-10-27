@@ -16,21 +16,14 @@ namespace WApplication
 {
     public class Startup
     {
-        /*
-         --service burada eklemek bagimliligi arttiriyor
+        
+         //--service burada eklemek bagimliligi arttiriyor
         public IConfiguration Configuration { get; }
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
         }
-        
        
-        public void ConfigureServices(IServiceCollection services)
-        {
-            services.AddDbContext<WDbContext>(options=> options.UseNpgsql());
-        }
-        
-        */
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
