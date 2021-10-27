@@ -31,3 +31,8 @@ extension olduğu için metod ve class static olmalı.
 microsoft.extension.configurations NuGet eklenmeli.
 
 ![image](https://user-images.githubusercontent.com/88982457/139149213-a015c916-f09d-4200-a39d-4540bfd0b746.png)
+
+Dbset'in generiğine kullanılan sınıfı sonrasına da tablonun ismi veriliyor.  Migration yapıldığında tablolar oluşuyor.
+
+![image](https://user-images.githubusercontent.com/88982457/139151143-6ba70f06-c9a4-41a9-87d2-e16bf8a0abb5.png)
+
