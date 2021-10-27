@@ -1,5 +1,5 @@
 # WebApplication
-kendime eğiti not
+kendime eğitim notu
 
 # DOMAIN
 Proje içinde oluşturulan entity'ler veri tabanı nesnelerini oluşturmaya yarıyor.
