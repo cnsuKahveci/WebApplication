@@ -19,3 +19,15 @@ ICollection ile çokluk ilişkisi sağlanıyor. Product ile arasında N'lik bir 
 
 ![image](https://user-images.githubusercontent.com/88982457/139147499-7747cbf0-a44d-4cd7-9928-41aea3444c05.png)
 
+# DBContext
+appsettinhs.json dosyası içerisine Connection string tanımlanıyor.
+con. string ismi:"PostgresConnection", port, dbismi, username ve password vb. Db tanımları yapılıyor.
+
+![image](https://user-images.githubusercontent.com/88982457/139148099-a53f70eb-25fd-4104-b1c1-c0d0c40a9ac3.png)
+
+DbContext service'ni api veya ınfrastructure katmanlarında yapılabilir. Ayar dosyalarını kodu dışarıdan ulaşılabilecek bir yerde tanımlama iyidir(startup dosyası-->API). Infrastructure'da tanımlanırsa da bağımlılık azaltırAPI'ın ınfras. katmanına bağlanma zorunluluğu ,dbcontext için ortadan kalkar.
+
+extension olduğu için metod ve class static olmalı.
+microsoft.extension.configurations NuGet eklenmeli.
+
+![image](https://user-images.githubusercontent.com/88982457/139149213-a015c916-f09d-4200-a39d-4540bfd0b746.png)
