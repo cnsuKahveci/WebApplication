@@ -1,7 +1,7 @@
 # WebApplication
 kendime eğiti not
 
-#DOMAIN
+# DOMAIN
 Proje içinde oluşturulan entity'ler veri tabanı nesnelerini oluşturmaya yarıyor.
 Domain'deki entities DB'de tablolarımıza denk geliyor. 
 Domain'de entities tanımlarken DB'de tablolar arası 1-1 ve 1-N'lik ilişki tanımlanması için gerekli şekilde tanımlanmalı 
