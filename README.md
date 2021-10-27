@@ -14,3 +14,8 @@ lazyloading: İhtiyaç olduğunda arkadaki sorgudan data'ları çekiyor. Önemli
 -Category property'sine göre 1 product'ın 1 category'si olmalı
 
 ![image](https://user-images.githubusercontent.com/88982457/139145648-94c33858-4d98-49a2-8848-1954e5624e1f.png)
+
+ICollection ile çokluk ilişkisi sağlanıyor. Product ile arasında N'lik bir ilişki tanımlanıyor. Sonuç olarak, product-1,category-N ilişkisi (1-N) sağlanıyor.
+
+![image](https://user-images.githubusercontent.com/88982457/139147499-7747cbf0-a44d-4cd7-9928-41aea3444c05.png)
+
