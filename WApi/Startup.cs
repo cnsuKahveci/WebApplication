@@ -12,7 +12,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Options;
 using WInfrastructure.Context;
 
-namespace WApplication
+namespace WApi
 {
     public class Startup
     {
