@@ -11,10 +11,9 @@ namespace WInfrastructure.Context
     {
         public WDbContext(DbContextOptions options) : base(options)
         {
-            
-        }
+            }
 
-        public DbSet<Category> Categories { get; set; }
+        public DbSet<Category> Categorise { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderItems> OrderItems { get; set; }
         public DbSet<Product> Products { get; set; }

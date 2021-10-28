@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WApplication", "WApplication\WApplication.csproj", "{F8708B74-86BA-4588-820C-1D086E884E45}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WApi", "WApi\WApi.csproj", "{F8708B74-86BA-4588-820C-1D086E884E45}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WDomain", "WDomain\WDomain.csproj", "{FD746C83-4403-4AE7-B6A1-20F0DC717D1E}"
 EndProject
